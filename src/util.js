@@ -1,5 +1,5 @@
-const formatCurrency = (num) => {
-return ("$"+ Number(num.toFixed(2).toLocaleString() + " "));
+let formatCurrency = (num) => {
+return ("$"+ Number(num.toFixed(2)).toLocaleString() + " ");
 }
 
 export default formatCurrency;
